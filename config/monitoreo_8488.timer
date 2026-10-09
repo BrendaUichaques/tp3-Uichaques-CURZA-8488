@@ -1,0 +1,10 @@
+[Unit]
+Description=TP3 - Timer de diagnostico de red - Legajo 8488
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=5min
+Unit=monitoreo_8488.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,12 @@
+[Unit]
+Description=TP3 - Diagnostico de red - Legajo 8488
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=brendauichaques
+ExecStart=/home/brendauichaques/tp3-Uichaques-CURZA-8488/codigo/diagnostico_red.sh
+
+[Install]
+WantedBy=multi-user.target
