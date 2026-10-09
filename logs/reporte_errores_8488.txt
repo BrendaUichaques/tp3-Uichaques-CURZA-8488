@@ -1,0 +1,412 @@
+FECHA   HORA     PROCESO                   MENSAJE                                           
+Oct 08  17:47:20 pipewire                  mod.jackdbus-detect: Failed to receive jackdbus re
+Oct 08  17:47:20 gdm-wayland-session       dbus-daemon[1395]: [session uid=120 pid=1395] Acti
+Oct 08  17:47:20 gnome-session             gnome-session-binary[1397]: WARNING: Could not che
+Oct 08  17:47:20 gnome-session-binary      WARNING: Could not check if unit gnome-session-way
+Oct 08  17:47:20 wireplumber               Failed to get percentage from UPower: org.freedesk
+Oct 08  17:47:21 systemd                   snap.snapd-desktop-integration.snapd-desktop-integ
+Oct 08  17:47:21 systemd                   snap.snapd-desktop-integration.snapd-desktop-integ
+Oct 08  17:47:23 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  17:47:23 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  17:47:23 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  17:47:23 gnome-shell               Failed to initialize accelerated iGPU/dGPU framebu
+Oct 08  17:47:23 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  17:47:23 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  17:47:23 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  17:47:24 org.gnome.Shell.desktop   Failed to initialize glamor, falling back to sw   
+Oct 08  17:47:24 colord                    failed to get edid data: EDID length is too small 
+Oct 08  17:47:24 org.gnome.Shell.desktop   Errors from xkbcomp are not fatal to the X server 
+Oct 08  17:47:25 org.gnome.Shell.desktop   Window manager warning: Failed to parse saved sess
+Oct 08  17:47:26 gnome-shell               Error looking up permission: GDBus.Error:org.freed
+Oct 08  17:47:26 gdm-wayland-session       dbus-daemon[1395]: [session uid=120 pid=1395] Acti
+Oct 08  17:47:26 gsd-sharing               Failed to StopUnit service: GDBus.Error:org.freede
+Oct 08  17:47:26 gsd-sharing               Failed to StopUnit service: GDBus.Error:org.freede
+Oct 08  17:47:27 org.gnome.Shell.desktop   libEGL warning: DRI3 error: Could not get DRI3 dev
+Oct 08  17:47:27 org.gnome.Shell.desktop   Errors from xkbcomp are not fatal to the X server 
+Oct 08  17:47:29 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 08  17:47:29 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 08  17:47:37 pipewire                  mod.jackdbus-detect: Failed to receive jackdbus re
+Oct 08  17:47:38 gdm3                      Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DI
+Oct 08  17:47:39 systemd                   app-gnome-xdg\x2duser\x2ddirs-2113.scope: Failed w
+Oct 08  17:47:39 systemd                   Failed to start app-gnome-xdg\x2duser\x2ddirs-2113
+Oct 08  17:47:39 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  17:47:39 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  17:47:39 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  17:47:39 gnome-shell               Failed to initialize accelerated iGPU/dGPU framebu
+Oct 08  17:47:41 systemd                   Dependency failed for org.gnome.SettingsDaemon.XSe
+Oct 08  17:47:41 systemd                   org.gnome.SettingsDaemon.XSettings.service: Job or
+Oct 08  17:47:41 systemd                   gnome-session-x11-services-ready.target: Job gnome
+Oct 08  17:47:41 gnome-shell               Error looking up permission: GDBus.Error:org.freed
+Oct 08  17:47:41 gnome-session             gnome-session-binary[2081]: GnomeDesktop-WARNING: 
+Oct 08  17:47:41 gnome-session-binary      GnomeDesktop-WARNING: Could not create transient s
+Oct 08  17:47:41 snapd-desktop-i           Failed to do gtk init. Waiting for a new session w
+Oct 08  17:47:42 at-spi2-registr           Failed to register client: GDBus.Error:org.gnome.S
+Oct 08  17:47:42 gnome-session             gnome-session-binary[2081]: GnomeDesktop-WARNING: 
+Oct 08  17:47:42 gnome-session-binary      GnomeDesktop-WARNING: Could not create transient s
+Oct 08  17:47:42 evolution-source-registry ** Failed to load key file at 'file:///home/brenda
+Oct 08  17:47:42 gsd-sharing               g_dbus_connection_call_internal: assertion 'G_IS_D
+Oct 08  17:47:42 gsd-sharing               g_dbus_connection_call_internal: assertion 'G_IS_D
+Oct 08  17:47:44 gnome-shell               Failed to import DBusMenu, quicklists are not avai
+Oct 08  17:47:44 gnome-shell               message repeated 2 times: [ Failed to import DBusM
+Oct 08  17:47:44 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 08  17:47:44 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 08  17:47:44 gdm3                      Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_
+Oct 08  17:47:45 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  17:47:45 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  17:47:45 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  17:47:46 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  17:47:46 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  17:47:46 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  17:47:46 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  17:47:46 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  17:47:46 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  17:47:47 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  17:47:47 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  17:47:47 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  17:47:47 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  17:47:47 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  17:47:47 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  17:47:47 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  17:47:47 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  17:48:12 google-chrome.desktop     [2862:2862:1008/174812.755988:ERROR:chrome/browser
+Oct 08  17:48:15 google-chrome.desktop     [2862:2862:1008/174815.806478:ERROR:chrome/browser
+Oct 08  17:48:17 google-chrome.desktop     [2909:2909:1008/174817.721230:ERROR:gpu/command_bu
+Oct 08  17:48:18 google-chrome.desktop     [2862:2890:1008/174818.630855:ERROR:google_apis/gc
+Oct 08  17:48:19 gnome-shell               libinput error: event6 - VirtualBox mouse integrat
+Oct 08  17:48:21 gnome-shell               libinput error: event6 - VirtualBox mouse integrat
+Oct 08  17:48:27 google-chrome.desktop     [2909:2909:1008/174827.575550:ERROR:gpu/command_bu
+Oct 08  17:48:27 google-chrome.desktop     [2909:2909:1008/174827.588664:ERROR:gpu/command_bu
+Oct 08  17:48:41 gnome-shell               libinput error: event6 - VirtualBox mouse integrat
+Oct 08  17:48:46 google-chrome.desktop     [2862:2890:1008/174846.334300:ERROR:google_apis/gc
+Oct 08  17:48:49 gnome-shell               libinput error: event6 - VirtualBox mouse integrat
+Oct 08  17:48:56 google-chrome.desktop     [2862:2862:1008/174856.323225:ERROR:chrome/browser
+Oct 08  17:48:57 google-chrome.desktop     [2909:2909:1008/174857.827671:ERROR:gpu/command_bu
+Oct 08  17:48:58 google-chrome.desktop     [2862:2862:1008/174858.928510:ERROR:CONSOLE:0] "Fr
+Oct 08  17:48:58 google-chrome.desktop     [2862:2862:1008/174858.928843:ERROR:CONSOLE:0] "Fr
+Oct 08  17:49:05 google-chrome.desktop     [3394:1:1008/174905.008036:ERROR:third_party/puffi
+Oct 08  17:49:05 google-chrome.desktop     [2862:2862:1008/174905.777305:ERROR:chrome/browser
+Oct 08  17:49:05 gnome-shell               libinput error: event4 - ImExPS/2 Generic Explorer
+Oct 08  17:49:05 gnome-shell               libinput error: client bug: timer event4 debounce 
+Oct 08  17:49:12 google-chrome.desktop     [3394:1:1008/174912.244728:ERROR:third_party/puffi
+Oct 08  17:49:23 google-chrome.desktop     [3537:1:1008/174923.951126:ERROR:third_party/puffi
+Oct 08  17:49:23 google-chrome.desktop     [3537:1:1008/174923.965431:ERROR:third_party/puffi
+Oct 08  17:49:27 google-chrome.desktop     [2862:2890:1008/174927.969403:ERROR:google_apis/gc
+Oct 08  17:50:45 update-notifier.desktop   WARNING:root:Error loading .desktop file /usr/shar
+Oct 08  17:50:53 google-chrome.desktop     [2862:2890:1008/175053.909577:ERROR:google_apis/gc
+Oct 08  17:52:10 systemd                   Starting update-notifier-download.service - Downlo
+Oct 08  17:52:10 systemd                   Finished update-notifier-download.service - Downlo
+Oct 08  17:52:45 snapd-desktop-integration.snapd-desktop-integration Error 10; status-code=500 kind=(null) message=requ
+Oct 08  17:53:26 systemd                   snap.snapd-desktop-integration.snapd-desktop-integ
+Oct 08  17:53:35 google-chrome.desktop     [2862:2890:1008/175335.849110:ERROR:google_apis/gc
+Oct 08  17:57:19 update-notifier           gtk_widget_get_scale_factor: assertion 'GTK_IS_WID
+Oct 08  17:57:19 update-notifier           gtk_widget_get_scale_factor: assertion 'GTK_IS_WID
+Oct 08  17:57:20 gnome-shell               Cursor update failed: drmModeAtomicCommit: Argumen
+Oct 08  18:01:18 google-chrome.desktop     [2862:2890:1008/180118.473389:ERROR:google_apis/gc
+Oct 08  18:03:37 google-chrome.desktop     [2862:2890:1008/180337.288334:ERROR:google_apis/gc
+Oct 08  18:09:36 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  18:09:36 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:09:36 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:09:36 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  18:09:36 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:09:36 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:09:36 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  18:09:36 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:09:36 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:09:37 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  18:09:37 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:09:37 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:09:37 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  18:09:37 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:09:37 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:09:37 google-chrome.desktop     [2862:2862:1008/180937.557040:ERROR:chrome/browser
+Oct 08  18:09:37 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:09:37 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:09:50 gnome-shell               meta_window_set_stack_position_no_sync: assertion 
+Oct 08  18:10:03 org.gnome.Nautilus        libEGL warning: failed to get driver name for fd -
+Oct 08  18:10:03 org.gnome.Nautilus        libEGL warning: MESA-LOADER: failed to retrieve de
+Oct 08  18:10:03 org.gnome.Nautilus        libEGL warning: failed to get driver name for fd -
+Oct 08  18:10:03 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:10:03 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:10:03 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:10:03 gnome-shell               Failed to initialize glamor, falling back to sw   
+Oct 08  18:10:03 gnome-shell               Errors from xkbcomp are not fatal to the X server 
+Oct 08  18:10:03 gnome-shell               Errors from xkbcomp are not fatal to the X server 
+Oct 08  18:10:03 org.gnome.Nautilus        MESA: error: ZINK: failed to choose pdev          
+Oct 08  18:10:03 org.gnome.Nautilus        libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:10:03 gnome-shell               libEGL warning: DRI3 error: Could not get DRI3 dev
+Oct 08  18:10:04 gnome-shell               meta_window_set_stack_position_no_sync: assertion 
+Oct 08  18:10:13 google-chrome.desktop     [2862:2862:1008/181013.207074:ERROR:chrome/browser
+Oct 08  18:10:14 google-chrome.desktop     [2862:2862:1008/181014.455682:ERROR:chrome/browser
+Oct 08  18:11:12 gnome-shell               libinput error: event6 - VirtualBox mouse integrat
+Oct 08  18:11:12 gnome-shell               libinput error: event6 - VirtualBox mouse integrat
+Oct 08  18:18:56 google-chrome.desktop     [2862:2890:1008/181856.805679:ERROR:google_apis/gc
+Oct 08  18:26:01 (udev-worker)             controlC0: Process '/usr/sbin/alsactl -E HOME=/run
+Oct 08  18:26:01 systemd                   apport-autoreport.path - Process error reports whe
+Oct 08  18:26:01 systemd                   apport-autoreport.timer - Process error reports wh
+Oct 08  18:26:01 kernel                    tsc: Marking TSC unstable due to check_tsc_sync_so
+Oct 08  18:26:01 kernel                    RAS: Correctable Errors collector initialized.    
+Oct 08  18:26:01 kernel                    vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to
+Oct 08  18:26:01 kernel                    vmwgfx 0000:00:02.0: [drm] *ERROR* This configurat
+Oct 08  18:26:01 kernel                    vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch t
+Oct 08  18:26:01 systemd                   Dependency failed for sssd-nss.socket - SSSD NSS S
+Oct 08  18:26:01 systemd                   sssd-nss.socket: Job sssd-nss.socket/start failed 
+Oct 08  18:26:01 systemd                   Dependency failed for sssd-autofs.socket - SSSD Au
+Oct 08  18:26:01 systemd                   sssd-autofs.socket: Job sssd-autofs.socket/start f
+Oct 08  18:26:01 systemd                   Dependency failed for sssd-pac.socket - SSSD PAC S
+Oct 08  18:26:01 systemd                   sssd-pac.socket: Job sssd-pac.socket/start failed 
+Oct 08  18:26:01 systemd                   Dependency failed for sssd-pam-priv.socket - SSSD 
+Oct 08  18:26:01 systemd                   Dependency failed for sssd-pam.socket - SSSD PAM S
+Oct 08  18:26:01 systemd                   sssd-pam.socket: Job sssd-pam.socket/start failed 
+Oct 08  18:26:01 systemd                   sssd-pam-priv.socket: Job sssd-pam-priv.socket/sta
+Oct 08  18:26:01 systemd                   Dependency failed for sssd-ssh.socket - SSSD SSH S
+Oct 08  18:26:01 systemd                   sssd-ssh.socket: Job sssd-ssh.socket/start failed 
+Oct 08  18:26:01 systemd                   Dependency failed for sssd-sudo.socket - SSSD Sudo
+Oct 08  18:26:01 systemd                   sssd-sudo.socket: Job sssd-sudo.socket/start faile
+Oct 08  18:26:01 systemd                   Starting grub-initrd-fallback.service - GRUB faile
+Oct 08  18:26:01 systemd                   Finished grub-initrd-fallback.service - GRUB faile
+Oct 08  18:26:01 alsactl                   alsa-lib main.c:1554:(snd_use_case_mgr_open) error
+Oct 08  18:26:01 gnome-remote-de           Init TPM credentials failed because No TPM device 
+Oct 08  18:26:03 NetworkManager            <info> [1791494763.4272] failed to open /run/netwo
+Oct 08  18:26:03 gnome-remote-de           Error calling GetManagedObjects() when name owner 
+Oct 08  18:26:04 pipewire                  mod.jackdbus-detect: Failed to receive jackdbus re
+Oct 08  18:26:05 gdm-wayland-session       dbus-daemon[1257]: [session uid=120 pid=1257] Acti
+Oct 08  18:26:05 gnome-session             gnome-session-binary[1260]: WARNING: Could not che
+Oct 08  18:26:05 gnome-session-binary      WARNING: Could not check if unit gnome-session-way
+Oct 08  18:26:05 wireplumber               Failed to get percentage from UPower: org.freedesk
+Oct 08  18:26:05 systemd                   Started update-notifier-download.timer - Download 
+Oct 08  18:26:06 wireplumber               <WpSiAudioAdapter:0x565af4b0d770> failed to activa
+Oct 08  18:26:08 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:26:08 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:26:08 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:26:08 gnome-shell               Failed to initialize accelerated iGPU/dGPU framebu
+Oct 08  18:26:08 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:26:08 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:26:08 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:26:09 org.gnome.Shell.desktop   Failed to initialize glamor, falling back to sw   
+Oct 08  18:26:09 colord                    failed to get edid data: EDID length is too small 
+Oct 08  18:26:09 org.gnome.Shell.desktop   Errors from xkbcomp are not fatal to the X server 
+Oct 08  18:26:10 org.gnome.Shell.desktop   Window manager warning: Failed to parse saved sess
+Oct 08  18:26:11 gnome-shell               Error looking up permission: GDBus.Error:org.freed
+Oct 08  18:26:11 gdm-wayland-session       dbus-daemon[1257]: [session uid=120 pid=1257] Acti
+Oct 08  18:26:11 gsd-sharing               Failed to StopUnit service: GDBus.Error:org.freede
+Oct 08  18:26:11 gsd-sharing               Failed to StopUnit service: GDBus.Error:org.freede
+Oct 08  18:26:12 org.gnome.Shell.desktop   Errors from xkbcomp are not fatal to the X server 
+Oct 08  18:26:12 org.gnome.Shell.desktop   libEGL warning: DRI3 error: Could not get DRI3 dev
+Oct 08  18:26:14 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 08  18:26:14 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 08  18:26:17 gnome-shell               Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Er
+Oct 08  18:26:17 gnome-shell               Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Er
+Oct 08  18:26:22 pipewire                  mod.jackdbus-detect: Failed to receive jackdbus re
+Oct 08  18:26:22 gdm3                      Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DI
+Oct 08  18:26:23 systemd                   app-gnome-gnome\x2dkeyring\x2dssh-2026.scope: Fail
+Oct 08  18:26:23 systemd                   Failed to start app-gnome-gnome\x2dkeyring\x2dssh-
+Oct 08  18:26:24 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:26:24 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:26:24 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  18:26:24 gnome-shell               Failed to initialize accelerated iGPU/dGPU framebu
+Oct 08  18:26:25 systemd                   Dependency failed for org.gnome.SettingsDaemon.XSe
+Oct 08  18:26:25 systemd                   org.gnome.SettingsDaemon.XSettings.service: Job or
+Oct 08  18:26:25 systemd                   gnome-session-x11-services-ready.target: Job gnome
+Oct 08  18:26:26 gnome-session             gnome-session-binary[2005]: GnomeDesktop-WARNING: 
+Oct 08  18:26:26 gnome-session-binary      GnomeDesktop-WARNING: Could not create transient s
+Oct 08  18:26:26 at-spi2-registr           Failed to register client: GDBus.Error:org.gnome.S
+Oct 08  18:26:26 systemd                   app-gnome-user\x2ddirs\x2dupdate\x2dgtk-2222.scope
+Oct 08  18:26:26 systemd                   Failed to start app-gnome-user\x2ddirs\x2dupdate\x
+Oct 08  18:26:27 evolution-source-registry ** Failed to load key file at 'file:///home/brenda
+Oct 08  18:26:28 gnome-shell               Error looking up permission: GDBus.Error:org.freed
+Oct 08  18:26:29 gnome-shell               Failed to import DBusMenu, quicklists are not avai
+Oct 08  18:26:29 gnome-shell               message repeated 2 times: [ Failed to import DBusM
+Oct 08  18:26:31 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  18:26:31 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:26:31 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:26:31 gnome-shell               (../src/core/meta-context.c:542):meta_context_term
+Oct 08  18:26:31 gnome-shell               JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpec
+Oct 08  18:26:32 gdm3                      Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_
+Oct 08  18:26:32 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 08  18:26:32 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 08  18:26:32 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  18:26:32 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:26:32 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:26:33 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  18:26:33 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:26:33 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:26:33 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  18:26:33 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:26:33 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:26:34 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  18:26:34 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:26:34 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:26:34 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  18:26:34 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  18:26:34 snapd-desktop-i           Failed to open display                            
+Oct 08  18:26:34 systemd                   snap.snapd-desktop-integration.snapd-desktop-integ
+Oct 08  18:26:40 gnome-shell               meta_window_set_stack_position_no_sync: assertion 
+Oct 08  18:26:42 systemd                   xdg-permission-store.service: Main process exited,
+Oct 08  18:26:42 systemd                   xdg-permission-store.service: Failed with result '
+Oct 08  18:26:42 systemd                   xdg-document-portal.service: Failed with result 'e
+Oct 08  18:31:05 systemd                   Starting update-notifier-download.service - Downlo
+Oct 08  18:31:05 systemd                   Finished update-notifier-download.service - Downlo
+Oct 08  18:34:14 update-notifier           gtk_widget_get_scale_factor: assertion 'GTK_IS_WID
+Oct 08  18:34:14 update-notifier           gtk_widget_get_scale_factor: assertion 'GTK_IS_WID
+Oct 08  18:34:15 gnome-shell               Cursor update failed: drmModeAtomicCommit: Argumen
+Oct 08  19:41:29 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  19:41:29 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  19:41:29 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  19:41:29 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  19:41:29 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  19:41:29 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  19:41:30 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  19:41:30 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  19:41:30 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  19:41:30 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  19:41:30 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  19:41:30 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  19:41:30 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 08  19:41:30 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  19:41:30 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  19:41:30 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 08  19:41:30 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 08  19:41:31 org.freedesktop.FileManager1 libEGL warning: failed to get driver name for fd -
+Oct 08  19:41:31 org.freedesktop.FileManager1 libEGL warning: MESA-LOADER: failed to retrieve de
+Oct 08  19:41:31 org.freedesktop.FileManager1 libEGL warning: failed to get driver name for fd -
+Oct 08  19:41:32 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  19:41:32 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  19:41:32 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 08  19:41:32 gnome-shell               Failed to initialize glamor, falling back to sw   
+Oct 08  19:41:32 gnome-shell               Errors from xkbcomp are not fatal to the X server 
+Oct 08  19:41:32 gnome-shell               Errors from xkbcomp are not fatal to the X server 
+Oct 08  19:41:33 org.freedesktop.FileManager1 MESA: error: ZINK: failed to choose pdev          
+Oct 08  19:41:33 org.freedesktop.FileManager1 libEGL warning: egl: failed to create dri2 screen 
+Oct 08  19:41:33 gnome-shell               libEGL warning: DRI3 error: Could not get DRI3 dev
+Oct 08  19:41:34 gnome-shell               meta_window_set_stack_position_no_sync: assertion 
+Oct 08  19:41:46 org.gnome.TextEditor.desktop libEGL warning: failed to get driver name for fd -
+Oct 08  19:41:46 org.gnome.TextEditor.desktop libEGL warning: MESA-LOADER: failed to retrieve de
+Oct 08  19:41:46 org.gnome.TextEditor.desktop libEGL warning: failed to get driver name for fd -
+Oct 08  19:41:46 org.gnome.TextEditor.desktop MESA: error: ZINK: failed to choose pdev          
+Oct 08  19:41:46 org.gnome.TextEditor.desktop libEGL warning: egl: failed to create dri2 screen 
+Oct 08  19:41:47 gnome-shell               meta_window_set_stack_position_no_sync: assertion 
+Oct 08  19:42:51 gnome-shell               meta_window_set_stack_position_no_sync: assertion 
+Oct 08  19:47:53 update-notifier           gtk_widget_get_scale_factor: assertion 'GTK_IS_WID
+Oct 08  19:47:53 update-notifier           gtk_widget_get_scale_factor: assertion 'GTK_IS_WID
+Oct 08  19:47:54 gnome-shell               Cursor update failed: drmModeAtomicCommit: Argumen
+Oct 08  21:27:32 update-notifier           g_object_get_data: assertion 'G_IS_OBJECT (object)
+Oct 09  18:00:20 (udev-worker)             controlC0: Process '/usr/sbin/alsactl -E HOME=/run
+Oct 09  18:00:20 systemd                   apport-autoreport.path - Process error reports whe
+Oct 09  18:00:20 systemd                   apport-autoreport.timer - Process error reports wh
+Oct 09  18:00:20 systemd                   Dependency failed for sssd-nss.socket - SSSD NSS S
+Oct 09  18:00:20 systemd                   sssd-nss.socket: Job sssd-nss.socket/start failed 
+Oct 09  18:00:20 systemd                   Dependency failed for sssd-autofs.socket - SSSD Au
+Oct 09  18:00:20 systemd                   sssd-autofs.socket: Job sssd-autofs.socket/start f
+Oct 09  18:00:20 systemd                   Dependency failed for sssd-pac.socket - SSSD PAC S
+Oct 09  18:00:20 systemd                   sssd-pac.socket: Job sssd-pac.socket/start failed 
+Oct 09  18:00:20 systemd                   Dependency failed for sssd-pam-priv.socket - SSSD 
+Oct 09  18:00:20 systemd                   Dependency failed for sssd-pam.socket - SSSD PAM S
+Oct 09  18:00:20 systemd                   sssd-pam.socket: Job sssd-pam.socket/start failed 
+Oct 09  18:00:20 systemd                   sssd-pam-priv.socket: Job sssd-pam-priv.socket/sta
+Oct 09  18:00:20 systemd                   Dependency failed for sssd-ssh.socket - SSSD SSH S
+Oct 09  18:00:20 systemd                   sssd-ssh.socket: Job sssd-ssh.socket/start failed 
+Oct 09  18:00:20 systemd                   Dependency failed for sssd-sudo.socket - SSSD Sudo
+Oct 09  18:00:20 systemd                   sssd-sudo.socket: Job sssd-sudo.socket/start faile
+Oct 09  18:00:20 systemd                   Starting grub-initrd-fallback.service - GRUB faile
+Oct 09  18:00:20 systemd                   Finished grub-initrd-fallback.service - GRUB faile
+Oct 09  18:00:20 gnome-remote-de           Init TPM credentials failed because No TPM device 
+Oct 09  18:00:20 kernel                    tsc: Marking TSC unstable due to check_tsc_sync_so
+Oct 09  18:00:20 alsactl                   alsa-lib main.c:1554:(snd_use_case_mgr_open) error
+Oct 09  18:00:20 kernel                    RAS: Correctable Errors collector initialized.    
+Oct 09  18:00:20 kernel                    vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to
+Oct 09  18:00:20 kernel                    vmwgfx 0000:00:02.0: [drm] *ERROR* This configurat
+Oct 09  18:00:20 kernel                    vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch t
+Oct 09  18:00:23 NetworkManager            <info> [1791579623.7436] failed to open /run/netwo
+Oct 09  18:00:24 systemd                   Started update-notifier-download.timer - Download 
+Oct 09  18:00:25 pipewire                  mod.jackdbus-detect: Failed to receive jackdbus re
+Oct 09  18:00:25 gdm-wayland-session       dbus-daemon[1379]: [session uid=120 pid=1379] Acti
+Oct 09  18:00:25 gnome-session             gnome-session-binary[1380]: WARNING: Could not che
+Oct 09  18:00:25 gnome-session-binary      WARNING: Could not check if unit gnome-session-way
+Oct 09  18:00:26 wireplumber               Failed to get percentage from UPower: org.freedesk
+Oct 09  18:00:28 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 09  18:00:28 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 09  18:00:28 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 09  18:00:28 gnome-shell               Failed to initialize accelerated iGPU/dGPU framebu
+Oct 09  18:00:29 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 09  18:00:29 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 09  18:00:29 org.gnome.Shell.desktop   libEGL warning: egl: failed to create dri2 screen 
+Oct 09  18:00:29 org.gnome.Shell.desktop   Failed to initialize glamor, falling back to sw   
+Oct 09  18:00:30 colord                    failed to get edid data: EDID length is too small 
+Oct 09  18:00:30 org.gnome.Shell.desktop   Errors from xkbcomp are not fatal to the X server 
+Oct 09  18:00:31 org.gnome.Shell.desktop   Window manager warning: Failed to parse saved sess
+Oct 09  18:00:32 gnome-shell               Error looking up permission: GDBus.Error:org.freed
+Oct 09  18:00:32 gdm-wayland-session       dbus-daemon[1379]: [session uid=120 pid=1379] Acti
+Oct 09  18:00:32 gsd-sharing               Failed to StopUnit service: GDBus.Error:org.freede
+Oct 09  18:00:32 gsd-sharing               Failed to StopUnit service: GDBus.Error:org.freede
+Oct 09  18:00:33 org.gnome.Shell.desktop   Errors from xkbcomp are not fatal to the X server 
+Oct 09  18:00:33 gdm-wayland-session       dbus-daemon[1379]: [session uid=120 pid=1379] Acti
+Oct 09  18:00:33 org.gnome.Shell.desktop   libEGL warning: DRI3 error: Could not get DRI3 dev
+Oct 09  18:00:33 gnome-shell               ibus_bus_hello: assertion 'ibus_bus_is_connected (
+Oct 09  18:00:33 gnome-shell               Error while sending AddMatch() message: La conexi√
+Oct 09  18:00:33 gnome-shell               Error while sending GetNameOwner() message: La con
+Oct 09  18:00:33 gnome-shell               Error while sending AddMatch() message: La conexi√
+Oct 09  18:00:33 gnome-shell               Error while sending AddMatch() message: La conexi√
+Oct 09  18:00:33 gnome-shell               ibus_bus_call_async: assertion 'ibus_bus_is_connec
+Oct 09  18:00:33 gnome-shell               ibus_bus_call_async: assertion 'ibus_bus_is_connec
+Oct 09  18:00:35 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 09  18:00:35 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 09  18:02:29 pipewire                  mod.jackdbus-detect: Failed to receive jackdbus re
+Oct 09  18:02:29 gdm3                      Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DI
+Oct 09  18:02:30 gnome-session             gnome-session-binary[2078]: GnomeDesktop-WARNING: 
+Oct 09  18:02:30 gnome-session-binary      GnomeDesktop-WARNING: Could not create transient s
+Oct 09  18:02:31 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 09  18:02:31 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 09  18:02:31 gnome-shell               libEGL warning: egl: failed to create dri2 screen 
+Oct 09  18:02:31 gnome-shell               Failed to initialize accelerated iGPU/dGPU framebu
+Oct 09  18:02:32 systemd                   Dependency failed for org.gnome.SettingsDaemon.XSe
+Oct 09  18:02:32 systemd                   org.gnome.SettingsDaemon.XSettings.service: Job or
+Oct 09  18:02:32 systemd                   gnome-session-x11-services-ready.target: Job gnome
+Oct 09  18:02:33 gnome-session             gnome-session-binary[2078]: GnomeDesktop-WARNING: 
+Oct 09  18:02:33 gnome-session-binary      GnomeDesktop-WARNING: Could not create transient s
+Oct 09  18:02:33 gnome-session             gnome-session-binary[2078]: GnomeDesktop-WARNING: 
+Oct 09  18:02:33 gnome-session-binary      GnomeDesktop-WARNING: Could not create transient s
+Oct 09  18:02:33 at-spi2-registr           Failed to register client: GDBus.Error:org.gnome.S
+Oct 09  18:02:34 evolution-source-registry ** Failed to load key file at 'file:///home/brenda
+Oct 09  18:02:34 gnome-shell               Error looking up permission: GDBus.Error:org.freed
+Oct 09  18:02:35 gnome-shell               Failed to import DBusMenu, quicklists are not avai
+Oct 09  18:02:35 gnome-shell               message repeated 2 times: [ Failed to import DBusM
+Oct 09  18:02:36 gsd-sharing               Error releasing name org.gnome.SettingsDaemon.Shar
+Oct 09  18:02:36 gsd-sound                 Error releasing name org.gnome.SettingsDaemon.Soun
+Oct 09  18:02:36 gsd-a11y-settin           Error releasing name org.gnome.SettingsDaemon.A11y
+Oct 09  18:02:36 gnome-shell               JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpec
+Oct 09  18:02:36 gsd-rfkill                Error releasing name org.gnome.SettingsDaemon.Rfki
+Oct 09  18:02:36 gsd-screensaver           Error releasing name org.freedesktop.ScreenSaver: 
+Oct 09  18:02:36 gsd-datetime              Error releasing name org.gnome.SettingsDaemon.Date
+Oct 09  18:02:36 gsd-smartcard             Error releasing name org.gnome.SettingsDaemon.Smar
+Oct 09  18:02:36 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 09  18:02:36 gsd-media-keys            Failed to grab accelerator for keybinding settings
+Oct 09  18:02:36 gdm3                      Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_
+Oct 09  18:02:38 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 09  18:02:38 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 09  18:02:38 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 09  18:02:38 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 09  18:02:38 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 09  18:02:38 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 09  18:02:38 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 09  18:02:38 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 09  18:02:38 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 09  18:02:38 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 09  18:02:38 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 09  18:02:38 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 09  18:02:39 systemd                   tracker-miner-fs-3.service: Main process exited, c
+Oct 09  18:02:39 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 09  18:02:39 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 09  18:02:39 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 09  18:02:39 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 09  18:02:39 systemd                   tracker-miner-fs-3.service: Failed with result 'ex
+Oct 09  18:02:39 systemd                   Failed to start tracker-miner-fs-3.service - Track
+Oct 09  18:02:40 snapd-desktop-i           Failed to open display                            
+Oct 09  18:02:40 systemd                   snap.snapd-desktop-integration.snapd-desktop-integ
+Oct 09  18:02:41 gnome-shell               meta_window_set_stack_position_no_sync: assertion 
+Oct 09  18:02:46 systemd                   xdg-document-portal.service: Failed with result 'e
+Oct 09  18:05:19 systemd                   Starting update-notifier-download.service - Downlo
+Oct 09  18:05:20 systemd                   Finished update-notifier-download.service - Downlo
+Oct 09  18:09:21 update-notifier           gtk_widget_get_scale_factor: assertion 'GTK_IS_WID
+Oct 09  18:09:21 update-notifier           gtk_widget_get_scale_factor: assertion 'GTK_IS_WID
+Oct 09  18:09:21 gnome-shell               Cursor update failed: drmModeAtomicCommit: Argumen
+Oct 09  18:52:18 update-notifier           gtk_widget_get_scale_factor: assertion 'GTK_IS_WID
