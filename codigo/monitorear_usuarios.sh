@@ -3,7 +3,8 @@
 # TP3 - Tarea 1: Monitoreo de usuarios activos
 # Legajo: 8488
 
-REPOSITORIO="$HOME/tp3-Uichaques-CURZA-8488"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPOSITORIO="$(dirname "$SCRIPT_DIR")"
 ARCHIVO_LOG="$REPOSITORIO/logs/usuarios_activos_8488.log"
 LEGAJO="8488"
 TOKEN="84881289"

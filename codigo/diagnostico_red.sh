@@ -3,21 +3,30 @@
 # TP3 - Tarea 3: Diagnóstico de red con Systemd
 # Legajo: 8488
 
-REPOSITORIO="$HOME/tp3-Uichaques-CURZA-8488"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPOSITORIO="$(dirname "$SCRIPT_DIR")"
 ARCHIVO_LOG="$REPOSITORIO/logs/ping_report_8488.log"
-GATEWAY="192.168.1.1"
 
 # Crear la carpeta de logs si no existe
 mkdir -p "$REPOSITORIO/logs"
 
-# Registrar la fecha y hora del diagnóstico
+# Detectar automáticamente el gateway
+GATEWAY="$(ip route | awk '/^default/ {print $3; exit}')"
+
+# Registrar la fecha y hora
 echo "===== Diagnóstico: $(date '+%Y-%m-%d %H:%M:%S') =====" >> "$ARCHIVO_LOG"
 
-# Realizar 4 solicitudes ping al gateway
-ping -c 4 -W 2 "$GATEWAY" >> "$ARCHIVO_LOG" 2>&1
+# Verificar que se haya detectado un gateway
+if [[ -z "$GATEWAY" ]]; then
+    echo "Error: no se pudo detectar el gateway." >> "$ARCHIVO_LOG"
+    echo "----------------------------------------" >> "$ARCHIVO_LOG"
+    exit 1
+fi
 
-# Registrar el resultado de la ejecución
-if [[ $? -eq 0 ]]; then
+echo "Gateway detectado: $GATEWAY" >> "$ARCHIVO_LOG"
+
+# Realizar 4 solicitudes ping al gateway
+if ping -c 4 -W 2 "$GATEWAY" >> "$ARCHIVO_LOG" 2>&1; then
     echo "Resultado: Gateway accesible" >> "$ARCHIVO_LOG"
 else
     echo "Resultado: Gateway no accesible" >> "$ARCHIVO_LOG"

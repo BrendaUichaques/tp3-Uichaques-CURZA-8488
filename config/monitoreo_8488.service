@@ -7,6 +7,3 @@ After=network-online.target
 Type=oneshot
 User=brendauichaques
 ExecStart=/home/brendauichaques/tp3-Uichaques-CURZA-8488/codigo/diagnostico_red.sh
-
-[Install]
-WantedBy=multi-user.target

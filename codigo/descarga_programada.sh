@@ -3,7 +3,8 @@
 # TP3 - Tarea 2: Descarga programada de archivos
 # Legajo: 8488
 
-REPOSITORIO="$HOME/tp3-Uichaques-CURZA-8488"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPOSITORIO="$(dirname "$SCRIPT_DIR")"
 DESTINO="$REPOSITORIO/descargas"
 
 # Verificar que se haya ingresado una URL
