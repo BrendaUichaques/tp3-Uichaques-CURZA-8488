@@ -3,7 +3,8 @@
 # TP3 - Tarea 5: Procesamiento de registros Syslog
 # Legajo: 8488
 
-REPOSITORIO="$HOME/tp3-Uichaques-CURZA-8488"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPOSITORIO="$(dirname "$SCRIPT_DIR")"
 ARCHIVO_ORIGEN="${1:-/var/log/syslog}"
 ARCHIVO_REPORTE="$REPOSITORIO/logs/reporte_errores_8488.txt"
 
