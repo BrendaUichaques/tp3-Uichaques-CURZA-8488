@@ -17,8 +17,14 @@ Se utilizaron herramientas como Cron, At, Systemd, grep, sed y awk para realizar
 
 ## Tareas desarrolladas
 
-1. **Monitoreo de usuarios con Cron:** registro periódico de usuarios conectados al sistema.
-2. **Descargas programadas con At:** programación de descargas de archivos comprimidos.
-3. **Diagnóstico de red con Systemd Timers:** monitoreo automático de la conectividad con el gateway.
+1. **Monitoreo de usuarios con Cron:** registro periódico de usuarios conectados al sistema. Se utilizan rutas dinámicas para guardar los registros dentro del repositorio.
+
+2. **Descargas programadas con At:** programación de descargas de archivos comprimidos, utilizando rutas dinámicas para su almacenamiento.
+
+3. **Diagnóstico de red con Systemd Timers:** monitoreo automático de la conectividad con el gateway, detectado mediante `ip route`.
+
+   **Nota sobre la instalación:** el archivo `config/monitoreo_8488.service` utiliza una ruta absoluta en `ExecStart` y un usuario específico en `User`. Estos valores deben adaptarse a la ubicación del repositorio y al usuario del equipo donde se instale el servicio.
+
 4. **Configuración segura del hostname:** modificación del nombre del equipo mediante un script con privilegios de administrador.
-5. **Procesamiento de Syslog:** filtrado y generación de reportes estructurados de errores del sistema.
+
+5. **Procesamiento de Syslog:** filtrado y generación de reportes estructurados de errores del sistema mediante `awk`, utilizando rutas dinámicas para guardar los resultados.
